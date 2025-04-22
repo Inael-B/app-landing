@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="py-3 container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white">
+          <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">
+              <img src="public/logo.png" alt="logotipo" height="100%">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav d-flex align-items-center gap-3">
+                <li class="nav-item"><a href="#home" class="nav-link" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#feature" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#perguntas" class="nav-link">Perguntas</a></li>
+                <li class="nav-item">
+                    <a href="#download" class="btn btn-secondary" role="button">Download</a>
+                </li>
+              </ul>
+            </div>
+      
+          </div>
+        </nav>
+      </header>
+      
+    <main class="container">
+        <section class="row pt-5" id="home">
+            <div class="col-12 col-md-6 order-2 order-md-1">
+                <div class="text-center text-md-start">
+                    <h1 class="display-1 fw-bold text-capitalize"> Tome as melhores decisões financeiras</h1>
+                    <p>Controle seus gastos, defina metas e acompanhe seu progresso financeiro com a ferramenta mais intuitiva do mercado. Tudo em um só lugar, direto no seu bolso.</p>
+                    <button type="button" class="btn btn-secondary">Baixar aplicativo  →</button>
+                </div>
+                <img src="public/herocol1.png" alt="imagem" width="85%">
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-2">
+                <img src="public/hero.png" alt="imagem com três celulares" width="100%">
+            </div>
+        </section>
+        <!-- FEATURES -->
+        <section class="row conteudo" id="feature">
+            <div class="col-12 col-md-5">
+                <img src="public/features.png" alt="Celular" width="90%">
+            </div>
+            <div class="col-12 col-md-7 text-center text-md-start">
+                <div class="pb-4">
+                    <h4>Funcionalidades</h4>
+                    <h2>uifry premium</h2>
+                </div>
+                <div class="gx-1">
+                    <div>
+                        <h3>Visão Geral Inteligente</h3>
+                        <p>Obtenha uma visão clara e simplificada de todos os seus gastos e receitas em tempo real.</p>
+                    </div>
+                    <div>
+                        <h3>Metas e Planejamento</h3>
+                        <p>Crie metas personalizadas e acompanhe seu progresso de forma visual e motivadora.</p>
+                    </div>
+                    <div>
+                        <h3>Alertas Inteligentes</h3>
+                        <p>Receba notificações úteis quando você estiver perto de ultrapassar seu orçamento ou quando surgir uma oportunidade de economia.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- FIM FEATURES -->
+        <!-- PORQUE ESCOLHER -->
+        <section class="row conteudo d-flex align-items-center">
+            <div class="col-12 col-md-7 text-center text-md-start" >
+                <div class="pb-4">
+                    <h4>VANTAGENS</h4>
+                    <h2>Por que escolher o Uifry?</h2>
+                </div>
+                <div class="gx-1" >
+                    <div>
+                        <h3>🔔 Clever Notifications</h3>
+                        <p>O Uifry te avisa no momento certo — se você está gastando demais, se esqueceu de pagar algo ou se pode economizar. Tudo sem complicação, direto no seu celular.</p>
+                    </div>
+                    <div>
+                        <h3>🎨 Fully Customizable</h3>
+                        <p>Personalize sua experiência: temas, categorias de gasto, alertas e muito mais. Você escolhe como quer ver e cuidar do seu dinheiro.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-5">
+                <img src="public/advantages.png" alt="Celular" width="90%">
+            </div>
+        </section>
+        <!-- FIM PORQUE ESCOLHER -->
+
+        <!-- TESTIMONIAL -->
+        <section class="row conteudo d-flex align-items-center">
+            <div>
+                <div class="pb-4 d-flex flex-column align-items-center text-md-start text-center">
+                    <h4>Depoimentos </h4>
+                    <h2 style="width: 455px; text-align: center;">O que nossos usuários dizem?</h2>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-5">
+                    <img src="public/testimonial.png" alt="Celular" width="100%">
+                </div>
+                <div class="col-12 col-md-7">
+                    <div id="carouselTestemunhos" class="carousel slide text-md-start text-center data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active row">
+                            <div>
+                                <h3>O melhor app de finanças que já usei!</h3>
+                                <p>"Antes de usar o app, eu vivia perdido com dinheiro. Hoje, tenho clareza, controle e consegui até começar a investir. O Uifry me ajudou a mudar minha relação com o dinheiro."</p>
+                                <span>José Lima</span>
+                            </div>
+                          </div>
+                          <div class="carousel-item row">
+                            <div>
+                                <h3>Controle sem estresse</h3>
+                                <p>"Sempre fui daquelas pessoas que tinham medo de olhar para a conta bancária. Vivia no automático, gastando sem pensar e torcendo para o dinheiro durar até o fim do mês. O aplicativo virou uma virada de chave pra mim. Ele não só me deu clareza sobre onde meu dinheiro estava indo, mas também me ajudou a criar metas realistas e tomar decisões baseadas em dados — não em achismos. O melhor de tudo é que ele fala a minha língua, sem complicações. Hoje eu finalmente tenho controle e paz de espírito."</p>
+                                <span>Maria Antonieta</span>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <!-- Botões de navegação
+                        <button class="carousel-control-prev" type="button" data-bs-target="#meuCarousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                          <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#meuCarousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                          <span class="visually-hidden">Próximo</span>
+                        </button> -->
+                      </div>
+    
+                </div>
+            </div>
+
+        </section>
+        <!-- FIM TESTIMONIAL -->
+        <!-- FAQ -->
+        <section id="perguntas">
+            <div class="pb-4">
+                <h4>FAQ</h4>
+                <h2>Perguntas frequentes</h2>
+            </div>
+            <div>
+                <div class="row g-4 conteudo">
+                    <div class="col-6">
+                        <div class="card-body p-2">
+                            <h3 class="card-title">O app é gratuito?</h3>
+                            <p class="card-text">Sim! Temos uma versão gratuita com todas as funcionalidades básicas. Para recursos avançados, oferecemos planos acessíveis.</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card-body p-2 card-cor">
+                            <h3 class="card-title">Posso usar em mais de um dispositivo?</h3>
+                            <p class="card-text"> Claro! Sua conta pode ser acessada em diferentes dispositivos com total sincronização.</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card-body p-2 card-cor">
+                            <h3 class="card-title">Meus dados estão seguros?</h3>
+                            <p class="card-text"> Totalmente. Utilizamos criptografia de ponta e seguimos os melhores padrões de segurança do mercado.</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card-body p-2">
+                            <h3 class="card-title">O app envia notificações?</h3>
+                            <p class="card-text"> Sim, mas só as que importam: lembretes úteis, alertas financeiros e sugestões personalizadas.</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card-body p-2">
+                            <h3 class="card-title">Como cancelo a assinatura?</h3>
+                            <p class="card-text"> Basta ir até as configurações da conta e cancelar com um clique. Sem burocracia.</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card-body p-2 card-cor">
+                            <h3 class="card-title">the best financial accounting app ever!</h3>
+                            <p class="card-text">“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM FAQ  -->
+        <!-- CALL TO ACTION -->
+        <section class="conteudo bg-black rounded-sm call row align-items-center" id="download">
+            <div class="col-7">
+                <div class="px-4">
+                    <h2 class="text-white">Pronto para iniciar?</h2>
+                    <p class="text-white">Baixe nosso app agora mesmo e faça já seu teste gratúito.</p>
+                    <button type="button" class="btn bg-white active">Download app <img src="public/mac-os.svg" height="28px"></button>
+                </div>
+            </div>
+            <div class="col-5">
+                <img src="public/call.png" height="460px">
+            </div>
+        </section>
+        <!-- FIM CALL TO ACTION -->
+    </main>
+    <footer class="container">
+        <div class="row d-md-flex d-none">
+            <div class="col-2">
+                <img src="public/logo.png" height="34px" alt="logomarca">
+                <p>help@frybix.com</p>
+                <p>+1 234 456 678 89</p>
+            </div>
+            <div class="col-2">
+                <h3>Links</h3>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Bookings</p>
+                <p>Blog</p>
+            </div>
+            <div class="col-2">
+                <h3>Jurídico</h3>
+                <p>termos de uso</p>
+                <p>política de privacidade</p>
+                <p>política de cookies</p>
+            </div>
+            <div class="col-2">
+                <h3>Products</h3>
+                <p>faça um tour</p>
+                <p>Suporte via chat</p>
+                <p>Avaliações</p>
+            </div>
+            <div class="col-4">
+                <h3>Newsletter</h3>
+                <p>Fique por dentro</p>
+                <input type="email" placeholder="name@example.com" height="50px">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+        <div class="conteudo d-flex justify-content-center">
+            <p>Site para o meu portfólio. Braga.</p>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
